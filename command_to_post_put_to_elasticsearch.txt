@@ -1,0 +1,3 @@
+curl -X PUT "localhost:9200/metaphor-search-engine?pretty" -H "Content-Type: application/json" -d @search_query_mapping_file.json -u elastic:T=e-Dzl7jHLgceEnJFQe
+
+curl -X POST "localhost:9200/metaphor-search-engine/_bulk?pretty" -H "Content-Type: application/json" --data-binary @180664L_metaphors-modified -u elastic:T=e-Dzl7jHLgceEnJFQe
