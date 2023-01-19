@@ -1,4 +1,4 @@
-# Metaphor-search-engine-frontend
+# Metaphor-search-engine-backend
 
 To run this application:
 1. npm i
